@@ -32,6 +32,8 @@
     "@nx/eslint-plugin": "19.5.3",
     "@nx/jest": "19.5.3",
     "@nx/js": "19.5.3",
+    "@nx/storybook": "^19.5.3",
+    "@nx/web": "19.5.3",
     "@nx/workspace": "19.5.3",
     "@schematics/angular": "~18.1.0",
     "@swc-node/register": "~1.9.1",
@@ -49,6 +51,7 @@
     "jest-preset-angular": "~14.1.0",
     "nx": "19.5.3",
     "prettier": "^2.6.2",
+    "storybook": "^7.5.3",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "~5.5.2"
