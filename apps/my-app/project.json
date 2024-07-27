@@ -75,6 +75,13 @@
       "options": {
         "jestConfig": "apps/my-app/jest.config.ts"
       }
+    },
+    "storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/my-app",
+        "command": "storybook dev"
+      }
     }
   }
 }

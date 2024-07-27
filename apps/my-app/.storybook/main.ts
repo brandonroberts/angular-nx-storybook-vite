@@ -71,7 +71,7 @@ const config = {
       plugins: [
         angular({
           jit: true,
-          tsconfig: 'apps/my-app/.storybook/tsconfig.json',
+          tsconfig: '.storybook/tsconfig.json',
         }),
         storybookAngularImportPlugin(),
       ],
