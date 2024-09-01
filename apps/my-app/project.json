@@ -82,6 +82,13 @@
         "cwd": "apps/my-app",
         "command": "storybook dev"
       }
+    },
+    "build-storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/my-app",
+        "command": "storybook build"
+      }
     }
   }
 }
